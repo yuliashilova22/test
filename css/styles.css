@@ -16,6 +16,7 @@ body {
 	background: #fff;
 	border: 2px solid #d6d6d6;
 	margin: 105px 33px 28px;
+	padding: 42px 0 0 29px;
 	width: 865px;
 	height: 456px;
 }
@@ -49,4 +50,14 @@ h1, .author {
 img {
 	border: 5px solid #f0f0f0;
 	display: block;
+	float: left;
+	margin: 0 33px;
+}
+
+.black-text {
+
+}
+
+.author-name {
+	float: right;
 }
