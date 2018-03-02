@@ -1,0 +1,52 @@
+*,
+*.before,
+*.after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('../images/back.png');
+	font: 14px/19px Arial, sans-serif;
+}
+
+.article {
+	background: #fff;
+	border: 2px solid #d6d6d6;
+	margin: 105px 33px 28px;
+	width: 865px;
+	height: 456px;
+}
+
+.text, time {
+	font: 14px 'Arial Regular', sans-serif;
+	color: #989b9f;
+	text-transform: capitalize;
+}
+
+.time-again {
+	font: 13px 'Arial Regular', sans-serif;
+	color: #989b9f;
+}
+
+.icon-bookmark:before {
+  content: "\f02e";
+}
+
+h1, .author {
+	font: 28px 'Yanone Kaffeesatz', sans-serif;
+	color: #000;
+	text-transform: capitalize;
+}
+
+.name {
+	font: 12px 'Arial Regular', sans-serif;
+	color: #e6618c;
+}
+
+img {
+	border: 5px solid #f0f0f0;
+	display: block;
+}
